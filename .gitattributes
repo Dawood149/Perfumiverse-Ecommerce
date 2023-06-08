@@ -1,0 +1,4 @@
+*.xyz filter=lfs diff=lfs merge=lfs -text
+5.pack filter=lfs diff=lfs merge=lfs -text
+21.pack filter=lfs diff=lfs merge=lfs -text
+.pack filter=lfs diff=lfs merge=lfs -text
