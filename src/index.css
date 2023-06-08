@@ -1,0 +1,116 @@
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+  .navbar {
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    box-shadow: 0 0 7px 0;
+    padding: 10px;
+
+  }
+
+  .nav-link:hover {
+    color: black;
+  }
+
+  .active {
+    border-bottom: 2px solid black;
+  }
+
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  .footer {
+    padding: 30px;
+    color: white;
+    padding: 25px;
+    background-color: #333333;
+  }
+
+  .footer a {
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  .footer a:hover {
+    color: #6699cc;
+    ;
+    text-decoration: underline;
+  }
+  /* ---------------------------------- CONTACT US */
+  .contactus {
+    float: right;
+    margin: 20vh;
+  }
+
+  /* .heading{
+background-color: #333333;
+color: white;
+width: 60vh;
+padding: 10px;
+align-items: center;
+} */
+
+
+  .pnf {
+    display: flex;
+    min-height: 65vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pnf-title {
+    font-size: 100px;
+    font-weight: 700;
+  }
+
+  .pnf-heading {
+    font-weight: normal;
+  }
+
+  .pnf-btn:hover {
+    background-color: black;
+    color: white;
+  }
+
+  /*  -------------------------------------ABOUT US */
+  .main-aboutus {
+    justify-content: center;
+    margin-top: 90px;
+    width: 40vh;
+  }
+
+  /* ------------------------------------Sign Up */
+  .register {
+    color: black;
+    display: flex;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+
+  .form-control {
+    width: 40vh;
+  }
+
+  /* ------------------------------ SIGN IN */
+
+  .log-in {
+    display: flex;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+.btn{
+  width: 40vh;
+  background-color: black;
+}
