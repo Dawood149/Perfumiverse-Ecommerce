@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Layout from '../../components/Layouts/layout'
-
+import { toast } from 'react-toastify'
 const Register = () => {
 
   const [name, setName] = useState("")
@@ -13,7 +13,7 @@ const Register = () => {
   const handleSubmit = (e) => {
     e.preventDefault()
     console.log(name, email, password, phone, address);
-    alert("User Registered")
+    toast.success('Register Successfull')
   }
 
   return (
@@ -47,8 +47,9 @@ const Register = () => {
               value={address} onChange={(event) => setAddress(event.target.value)} />
           </div>
 
-          <button type="button" class="btn btn-dark ">Register</button>
+          <button class="btn btn-dark ">Register</button>
         </form>
+
 
 
       </div>

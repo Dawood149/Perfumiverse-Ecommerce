@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import Layout from '../components/Layouts/layout'
 
 export const About = () => {
+ 
   return (
     <Layout>
       <div className="main-aboutus">

@@ -1,5 +1,6 @@
 import React from "react";
 import { Routes, Route } from 'react-router-dom'
+/* ...................FOR PAGES............................. */
 import Homepage from "./pages/Homepage";
 import { About } from "./pages/About";
 import Contact from "./pages/Contact";
@@ -11,6 +12,7 @@ import Login from "./pages/Auth/Login";
 function App() {
   return (
     <>
+
       <Routes>
         <Route path='/' element={<Homepage />} />
         <Route path='/about' element={<About />} />
